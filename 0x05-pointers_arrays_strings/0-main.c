@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - ENtry point to test the reset_to_98 function
+ * main - Entry point to test the reset_to_98 function
  *
  * Return: Always 0 (Success)
  */
