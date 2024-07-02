@@ -8,7 +8,7 @@
 void print_rev(char *s)
 {
 	int len = 0;
-	char *end =s;
+	char *end = s;
 
 	while (*end)
 	{
@@ -20,8 +20,7 @@ void print_rev(char *s)
 	while (len > 0)
 	{
 		write(1, end, 1);
-	}
-	{	end--;
+		end--;
 		len--;
 	}
 	write(1, "\n", 1);
