@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+voic rev_string(char *);
+
 /**
  * main - check the code for Holberton school students.
  *
